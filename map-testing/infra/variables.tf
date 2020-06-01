@@ -1,4 +1,6 @@
-variable "names" {
-  description = "A list of names"
-  type        = list(string)
+variable "files" {
+  type = map(object({
+    filename = string
+    content  = string
+  }))
 }
