@@ -4,7 +4,11 @@ files = {
         content  = "blah AAAAA"
     },
     clientb =    {   
-        filename = "filea"
-        content  = "blah AAAAA"
+        filename = "fileb"
+        content  = "blah BBBBB"
+    },
+    clientc =    {   
+        filename = "filec"
+        content  = "blah CCCCC"
     }
 }
